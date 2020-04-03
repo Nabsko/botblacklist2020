@@ -18,8 +18,8 @@ const prefix = ("*");
 
 
 db.defaults({
-  owner: ['632488914900222013'],
-  admins: ["632488914900222013"],
+  owner: [],
+  admins: [],
   blacklisted: [],
   bots: [],
 
