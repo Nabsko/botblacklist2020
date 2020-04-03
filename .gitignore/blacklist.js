@@ -1,7 +1,6 @@
 
 
 
-request = require("request"),
 Discord = require("discord.js"),
 bot = new Discord.Client();
 figlet = require('figlet');
