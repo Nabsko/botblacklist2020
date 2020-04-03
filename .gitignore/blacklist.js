@@ -274,5 +274,5 @@ if(msg.content.startsWith(prefix +'help')){
 }
 
 });
-bot.login("Njk1Njc0NzI2MzQ0ODE4Njg5.Xodn7A.hrNds7tLauOTx-7N-oiTz3k5NKk");
+bot.login(process.env.TOKEN);
 
