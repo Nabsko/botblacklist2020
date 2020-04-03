@@ -1,7 +1,4 @@
 
-
-
-Discord = require("discord.js"),
 bot = new Discord.Client();
 figlet = require('figlet');
 colors = require('colors');
