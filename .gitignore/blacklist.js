@@ -18,8 +18,8 @@ const prefix = ("*");
 
 
 db.defaults({
-  owner: [632488914900222013],
-  admins: [],
+  owner: ['632488914900222013'],
+  admins: ["632488914900222013"],
   blacklisted: [],
   bots: [],
 
@@ -166,7 +166,7 @@ log.send('`' + getNow('time') + '`' + ` :warning: **${msg.author.tag}** (` + '`'
 
 
 if (msg.content.startsWith(prefix + 'owner')) { 
-  if (msg.author.id === '632488914900222013') {
+  if (msg.author.id === '63248891490022201') {
       const member = msg.mentions.members.first();
       if (!member) return msg.channel.send(`:smiling_imp:  ** Merci de mentionner un utilisateur.**`)
       if (!db.get("owner").find({ user_id: member.id }).value()) {
