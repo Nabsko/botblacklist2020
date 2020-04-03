@@ -1,1 +1,1 @@
-worker: node blacklist
+worker: node index
